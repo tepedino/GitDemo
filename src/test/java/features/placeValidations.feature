@@ -10,8 +10,8 @@ Scenario Outline: Verify is place is being successfully added ussing AddPlaceAPI
 	And verify place_Id created maps to "<name>" using "GetPlaceAPI"
 	
 Examples:
-	| name             | language  | address                    |
-	| Frontline house, | French-IN | 29, side layout, cohen 09, |
+	| name             | language  | address                     |
+	| Frontline house, | French-IN | 29, side layout, cohen 09,  |
 	| Front one house, | Polish-IN | 27, front layout, cohen 10, |
 	
 @DeletePlace @Regression
