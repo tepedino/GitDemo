@@ -11,10 +11,10 @@ Scenario Outline: Verify is place is being successfully added ussing AddPlaceAPI
 	
 Examples:
 	| name             | language      | address                     |
-	| Frontline house, | French-IN     | 29, side layout, cohen 09,  |
 	| Front one house, | Polish-IN     | 27, front layout, cohen 10, |
 	| Front building,  | Portuguese-IN | 88, left layout, cohen 100, |
 	| Front building,  | Portuguese-IN | 88, left layout, cohen 100, |
+	| Frontline house, | French-IN     | 29, side layout, cohen 09,  |
 	
 @DeletePlace @Regression
 Scenario: Verify if Delete Place functionality is working
